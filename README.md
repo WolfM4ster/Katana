@@ -32,12 +32,9 @@ Rockstar Developer & Manager
 Developer
 * **Yassine Jrad** - [JrYassine](https://github.com/JrYassine)
 * **Adrien ZOCCO** - [adrienz0101](https://github.com/adrienz0101)
-* **Anthony PIQUARD**
+* **Anthony PIQUARD** - [Powel06](https://github.com/Powel06)
 * **Romain PACE** - [romainpace](https://github.com/romainpace)
 * **Yacine TEBBOUNE** - [ytebboune](https://github.com/ytebboune)
-
-
-
 
 ## License
 
