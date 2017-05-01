@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Katana.View.SwitchLanguageWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Katana.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="78*"/>
+            <RowDefinition Height="68*"/>
+            <RowDefinition Height="145*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="118*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Image  Source="../Ressources/40273-katana.jpg" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill" Grid.ColumnSpan="11" Grid.RowSpan="5" MinHeight="2"/>
+        <Image  Source="../Ressources/union-jack-1027893_640.jpg"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Tapped="US_Tapped" />
+        <Image Source="../Ressources/flag-France.png"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Tapped="FR_Tapped" />
+        <Image   Source="../Ressources/flag-Japan.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="8" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Tapped="JP_Tapped" />
+        <Image  Source="../Ressources/flag-Spain.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Tapped="ES_Tapped" />
+        <!--<Image  Margin="512,72,54,229" Source="../Ressources/house-308936_960_720.png" Stretch="Fill"/>-->
+        <Button x:Name="home" Content="{Binding Path=Home}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" RenderTransformOrigin="0.026,0.135"  BorderBrush="#FF4B0E0E" Background="#FFFBDA83" Grid.Column="7" Grid.ColumnSpan="3"  Grid.Row="1" Click="homeClick"/>
+
+    </Grid>
+</Page>
